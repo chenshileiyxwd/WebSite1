@@ -1,13 +1,13 @@
 CREATE TABLE Persons
 (
-Id_P int,
+Id_P INT,
 LastName varchar(255),
 FirstName varchar(255),
 Address varchar(255),
 City varchar(255)
 );
 
-SELECT * FROM dbo.Persons;
+SELECT * FROM dbo.Persons ;
 
 INSERT INTO dbo.Persons
 (
